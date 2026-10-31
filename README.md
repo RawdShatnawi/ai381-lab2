@@ -1,6 +1,6 @@
 # AI381 Lab 2 — Containerised Churn API
 
-[![ci](https://github.com/YOURUSERNAME/ai381-lab2/actions/workflows/ci.yml/badge.svg)](https://github.com/YOURUSERNAME/ai381-lab2/actions/workflows/ci.yml)
+[![ci](https://github.com/RawdShatnawi/ai381-lab2/actions/workflows/ci.yml/badge.svg)](https://github.com/RawdShatnawi/ai381-lab2/actions/workflows/ci.yml)
 
 A FastAPI service that serves the churn model from Lab 1. Multi-stage Dockerfile,
 non-root container, HEALTHCHECK, and CI via GitHub Actions that scans with Trivy
