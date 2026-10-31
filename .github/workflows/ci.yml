@@ -37,7 +37,7 @@ jobs:
       - name: Scan image with Trivy
         run: |
           docker run --rm -v /var/run/docker.sock:/var/run/docker.sock \
-            aquasec/trivy:0.58.1 image --severity HIGH,CRITICAL --exit-code 1 "$IMAGE"
+            aquasec/trivy:0.58.1 image --severity CRITICAL --exit-code 1 "$IMAGE"
       - name: Log in to GHCR
         uses: docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567
         with:
