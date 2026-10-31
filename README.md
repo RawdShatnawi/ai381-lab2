@@ -9,4 +9,4 @@ and pushes to GHCR tagged with the commit SHA.
 ## One-command start
 
 ```bash
-docker run -p 8000:8000 ghcr.io/YOURUSERNAME/ai381-lab2:<sha>Lab 2 — containerised churn API with CI
+docker run -p 8000:8000 ghcr.io/rawdshathnawi/ai381-lab2:507a6c3eb84e7ab50d3b82e9220fbcbd3465332f
